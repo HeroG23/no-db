@@ -1,0 +1,83 @@
+[
+    {
+        "id":1,
+        "name": "Ansel Thorson",
+        "race": "Human",
+        "role": "Rogue",
+        "age": 35,
+        "size": "6ft 2in",
+        "attacks": ["Riposte", "Sneak Attack", "Shadow Strike"]
+    },
+    {
+        "id":2,
+        "name": "Balasar the Zealous of Delmirev",
+        "race": "Dragonborn",
+        "role": "Sorcerer",
+        "age": 65,
+        "size": "6ft 5in",
+        "attacks": ["Ray of Frost", "Acid Splash", "firebolt"]
+    },
+    {
+        "id":3,
+        "name": "Carlin of clan Beren",
+        "race": "Gnome",
+        "role": "Bard",
+        "age": 55,
+        "size": "3ft 2in",
+        "attacks": ["Healing Grace", "Cutting Words", "Bardic Inspiration"]
+    },
+    {
+        "id":4,
+        "name": "Amber Battlehammer",
+        "race": "Dwarf",
+        "role": "Barbarian",
+        "age": 58,
+        "size": "4ft 5in",
+        "attacks": ["Claw Attacks", "Bite", "Reckless Attack"]
+    },
+    {
+        "id":5,
+        "name": "Leshanna Amastacia",
+        "race": "Elf",
+        "role": "Ranger",
+        "age": 35,
+        "size": "5ft 8in",
+        "attacks": ["Cordon of Arrows", "Flame Arrows", "Hail of Thorns"]
+    },
+    {
+        "id":6,
+        "name": "Errich Goodbarrel",
+        "race": "Halfling",
+        "role": "Cleric",
+        "age": 28,
+        "size": "3ft 2in",
+        "attacks": ["Healing Word", "Guiding Bolt", "Banishment"]
+    },
+    {
+        "id":7,
+        "name": "Theren Meliamne",
+        "race": "Half-Elf",
+        "role": "Druid",
+        "age": 30,
+        "size": "6ft 2in",
+        "attacks": ["Thunderclap", "Poison Spray", "Frostbite"]
+    },
+    {
+        "id":8,
+        "name": "Thok Quickstrike",
+        "race": "Half-Orc",
+        "role": "Fighter",
+        "age": 35,
+        "size": "6ft 8in",
+        "attacks": ["Slash", "Cross Strike", "Counter Strike"]
+    },
+    {
+        "id":9,
+        "name": "Lerissa the Quest-Seeking",
+        "race": "Tiefling",
+        "role": "Warlock",
+        "age": 25,
+        "size": "6ft 2in",
+        "attacks": ["Chill Touch", "Eldritch Blast", "Thunder Step"]
+    }
+]
