@@ -34,7 +34,7 @@ h3{
     position: relative;
     margin: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .body{
     display: flex;
