@@ -64,6 +64,7 @@ footer{
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
+    list-style-type: none;
 }
 
 .adventurers-available{
@@ -74,6 +75,11 @@ footer{
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
+    list-style-type: none;
+}
+
+.adventurers-available:hover{
+    animation: revolve3d 8s infinite;
 }
 
 .save{
@@ -101,4 +107,37 @@ footer{
     margin: 3px;
     display: inline-block;
     border-radius: 5px;
+}
+
+.edit:onClick{
+    background-color: white;
+    color:black;
+}
+.edit:hover{
+    animation: revolve 5s infinite;
+}
+.save:hover{
+    animation: revolve 5s infinite;
+}
+.cancel:hover{
+    animation: revolve 5s infinite;
+}
+    
+
+@keyframes revolve3d{
+    0%{
+        transform: rotate3d(0);
+    }
+    100%{
+        transform: rotate3d(1,-1,1, 360deg);
+    }
+}
+
+@keyframes revolve{
+    0%{
+        transform: rotateY(0);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
 }
