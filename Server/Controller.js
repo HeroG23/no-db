@@ -8,7 +8,7 @@ module.exports = {
         if(search){
             const filteredAdventurers = partyList.filter(
                 adventurers => adventurers.name.toLowerCase().includes(search.toLowerCase()));
-            for(let i = 0; i < 20; i++){
+            for(let i = 0; i < 9; i++){
                 if(filteredAdventurers[i]){
                     searchArray.push(filteredAdventurers[i]);
                 }
