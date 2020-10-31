@@ -11,6 +11,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 10px;
 }
 
 h1{
@@ -29,12 +30,25 @@ h3{
     color: brown;
 }
 
+footer{
+    background-color: aliceblue;
+    height: 15vh;
+    font-size: 36px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    border-radius: 5px;
+}
+
 .minus{
     font-size: 28px;
     position: relative;
     margin: 0;
     display: flex;
     justify-content: center;
+    color: black
 }
 .body{
     display: flex;
@@ -60,4 +74,12 @@ h3{
     padding: 20px;
     margin: 20px;
     box-sizing: border-box;
+}
+
+.adventurers-available:hover{
+    transform: rotateX(360deg);
+}
+
+.adventurers-in-party:hover{
+    transform: rotateX(360deg);
 }

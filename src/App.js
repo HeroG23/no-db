@@ -55,6 +55,7 @@ class App extends Component {
           />
           <Adventurers addAdventurerToParty = {this.addAdventurerToParty} />
         </div>
+        <footer><strong>Adventure at your own risk!</strong></footer>
       </div>
     )
   }
