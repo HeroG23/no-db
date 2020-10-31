@@ -76,10 +76,29 @@ footer{
     box-sizing: border-box;
 }
 
-.adventurers-available:hover{
-    transform: rotateX(360deg);
+.save{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 3px;
+    display: inline-block;
 }
 
-.adventurers-in-party:hover{
-    transform: rotateX(360deg);
+.cancel{
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.edit{
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 5px;
 }
