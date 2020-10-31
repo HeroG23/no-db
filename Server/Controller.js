@@ -14,7 +14,7 @@ module.exports = {
                 }
             }
         }else{
-            for(let i = 0; i < 20; i++){
+            for(let i = 0; i < 9; i++){
                 searchArray.push(partyList[i]);
             }
         }
@@ -34,30 +34,6 @@ module.exports = {
         res.status(200).send(party);
     },
 
-    addAdventurer: (req,res) => {
-        
-        const {name, race, role, age, size, attacks, id} = req.body;
-
-        for(let i = 0; i < 20; i++){
-            if(id === partyList[i].id){
-                return `Can't add that adventurer at ${id}`
-            }
-            else{
-                let newAdventurer = {
-                    id: id,
-                    name: name,
-                    race: race,
-                    role: role,
-                    age: age,
-                    size: size,
-                    attacks: attacks,
-                }
-                return newAdventurer
-            }
-        }
-        partyList.push(newAdventurer)  
-        res.status(200).send(partyList)
-    },
 
     addAdventurerToParty: (req,res) => {
         const {id} = req.params;
@@ -73,7 +49,7 @@ module.exports = {
         party[index].name = name;
         res.status(200).send(party)
     },
-    
+
     removeFromParty: (req,res) => {
         const {index} = req.params;
         party.splice(index, 1);

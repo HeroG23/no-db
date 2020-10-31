@@ -1,7 +1,11 @@
 import React from "react"
 
 function Header(){
-    return <header>D&D Adventure Party Builder</header>
+    return (
+        <div>
+            <header>D&D Adventure Party Builder</header>
+        </div>
+        )
 }
 
 export default Header

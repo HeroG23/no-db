@@ -23,7 +23,7 @@ class PartyAdventurers extends Component {
         const{adventurers} = this.props;
         return (
             <div>
-                <li className="adventurer">
+                <li className="adventurers-in-party">
                     <p className = "minus"
                         onClick={(e) => {
                         e.stopPropagation();
@@ -55,11 +55,11 @@ class PartyAdventurers extends Component {
                         </span>
                     ) : null}
                     <button onClick={this.editToggler}>Edit</button>
-                    <h2>{adventurers.race}</h2>
-                    <h2>{adventurers.role}</h2>
-                    <h2>{adventurers.age}</h2>
-                    <h2>{adventurers.size}</h2>
-                    <h2>{adventurers.attacks}</h2>
+                    <h2>Race: {adventurers.race}</h2>
+                    <h2>Role: {adventurers.role}</h2>
+                    <h2>Age: {adventurers.age}</h2>
+                    <h2>Size:{adventurers.size}</h2>
+                    <h3>Attacks: {adventurers.attacks[0]}, {adventurers.attacks[1]}, {adventurers.attacks[2]}</h3>
                 </li>
             </div>
         )

@@ -5,9 +5,8 @@ const express = require('express'),
 
 app.use(express.json());
 
-app.get("/api/adventurers", ctrl.getAdventurer);
-app.get("/api/adventurers/:id", ctrl.getOneAdventurer);
-app.post("/api/adventurers", ctrl.addAdventurer);
+app.get("/api/adventurers", ctrl.getAdventurers);
+app.get("/api/adventurers/:id", ctrl.getAdventurer);
 app.get("/api/party", ctrl.identifyParty);
 app.post("/api/party/:id", ctrl.addAdventurerToParty);
 app.put("/api/party/:index", ctrl.editName);
