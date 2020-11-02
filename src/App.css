@@ -78,8 +78,11 @@ footer{
     list-style-type: none;
 }
 
+.name:hover{
+    color: black;
+}
 .adventurers-available:hover{
-    animation: revolveX 8s infinite;
+    animation: revolveX 6s infinite;
 }
 
 .save{

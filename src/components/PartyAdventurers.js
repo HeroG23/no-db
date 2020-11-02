@@ -37,7 +37,7 @@ class PartyAdventurers extends Component {
           {editToggler ? (
             <input value={newName} onChange={this.handleChange} />
           ) : (
-            <h1>Name: {adventurers.name}</h1>
+            <h1 className="name">Name: {adventurers.name}</h1>
           )}
           {editToggler ? (
             <span>
@@ -60,11 +60,11 @@ class PartyAdventurers extends Component {
             </span>
           ) : null}
           <button className="edit" onClick={this.editToggler}>Edit</button>
-          <h2>Race: {adventurers.race}</h2>
-          <h2>Role: {adventurers.role}</h2>
-          <h2>Age: {adventurers.age}</h2>
-          <h2>Size:{adventurers.size}</h2>
-          <h3>
+          <h2 className="name">Race: {adventurers.race}</h2>
+          <h2 className="name">Role: {adventurers.role}</h2>
+          <h2 className="name">Age: {adventurers.age}</h2>
+          <h2 className="name">Size:{adventurers.size}</h2>
+          <h3 className="name">
             Attacks: {adventurers.attacks[0]}, {adventurers.attacks[1]},{" "}
             {adventurers.attacks[2]}
           </h3>
