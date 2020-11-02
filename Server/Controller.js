@@ -21,6 +21,14 @@ module.exports = {
         return res.status(200).send(searchArray);
     },
 
+    addAdventurer: (req,res) => {
+        const id = partyList[partyList.length-1].id + 1;
+        const {newAdventurer} = req.body;
+        newAdventurer.id = id;
+        partyList.push(newAdventurer);
+        res.status(200).send(partyList);
+    },
+
     getAdventurer: (req, res) => {
         const {id} = req.params;
         const locatedAdventurer = partyList.find(adventurers => adventurers.id === +id);
