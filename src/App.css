@@ -79,7 +79,7 @@ footer{
 }
 
 .adventurers-available:hover{
-    animation: revolve3d 8s infinite;
+    animation: revolveX 8s infinite;
 }
 
 .save{
@@ -124,12 +124,12 @@ footer{
 }
     
 
-@keyframes revolve3d{
+@keyframes revolveX{
     0%{
-        transform: rotate3d(0);
+        transform: rotateX(0);
     }
     100%{
-        transform: rotate3d(1,-1,1, 360deg);
+        transform: rotateX(360deg);
     }
 }
 
