@@ -7,23 +7,22 @@ class Adventurers extends Component {
     super(props);
     this.state = {
       possibleAdventurers: [],
-    }
+    };
   }
 
-
   componentDidMount() {
-    axios.get("/api/adventurers")
+    axios
+      .get("/api/adventurers")
       .then((res) => {
         this.setState({ possibleAdventurers: res.data });
       })
       .catch((err) => console.log(err));
-  };
-
+  }
 
   render() {
     let adventurersMap = [];
     adventurersMap = this.state.possibleAdventurers.map((adventurers) => {
-    return (
+      return (
         <AdventurersList
           adventurers={adventurers}
           key={adventurers.id}
