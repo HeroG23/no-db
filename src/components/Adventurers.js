@@ -10,13 +10,15 @@ class Adventurers extends Component {
     }
   }
 
+
   componentDidMount() {
     axios.get("/api/adventurers")
       .then((res) => {
         this.setState({ possibleAdventurers: res.data });
       })
       .catch((err) => console.log(err));
-  }
+  };
+
 
   render() {
     let adventurersMap = [];
